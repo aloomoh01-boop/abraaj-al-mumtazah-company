@@ -108,6 +108,7 @@ transition:0.3s;
 .tiktok{background:#000;}
 .snapchat{background:#c49910;color:#111;}
 .X{background:#111;color:#f3f1ed;}
+.youtube{background:#111 ;color:red ;}
 .social-icons a:hover{
 transform:scale(1.15);
 }
