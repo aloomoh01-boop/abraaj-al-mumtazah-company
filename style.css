@@ -32,11 +32,11 @@ nav ul li a:hover{color:#fff;}
 .vip-full-card h3{margin-bottom:12px;font-size:18px;}
 .vip-full-card p{font-size:14px;color:#f3f1ed;}
 
-      <!--الحجزات-->
+  <!-- الحجزات
 .staff{background:#113729;padding:40px 20px;text-align:center;}
 .staff h2{font-size:30px;margin-bottom:30px;}
 .staff-cards{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;}
-.staff-card{flex:1 1 180px;background:white;color:black;padding:20px;border-radius:10px;box-shadow:0 5px 15px #c49530(0,0,0,0.6);transition:0.3s;}
+.staff-card{flex:1 1 180px;background:#113729;color:#c49530;padding:20px;border-radius:10px;box-shadow:0 5px 15px #c49530(0,0,0,0.6);transition:0.3s;}
 .staff-card:hover{transform:translateY(-5px);box-shadow:0 0 15px #c49530;}
 .staff-card h3{margin-bottom:10px;font-size:16px;}
 .staff-card p{font-size:14px;color:#c49530;}
@@ -298,19 +298,41 @@ transform: scale(1.1);
 
 
 
-
-
-.header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    background:#0f3d2e;
-    padding:15px 40px;
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:1000;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #133729;
+  color: #c49530;
 }
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #c49530;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
 
 .logo{
     display:flex;
@@ -322,7 +344,7 @@ transform: scale(1.1);
 }
 
 .logo img{
-    width: 90px;
+    width: 48px;
 }
 
 .menu a{
@@ -373,7 +395,7 @@ margin:auto;
 }
 
 .license-card{
-background:#1e293b;
+background:#113729;
 padding:25px;
 border-radius:10px;
 transition:0.3s;
@@ -399,4 +421,138 @@ cursor:pointer;
 
 .license-card button:hover{
 background:#16a34a;
+}
+
+
+
+.goals {
+  background: #113729;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.goals h2 {
+  color: #c49530;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.goal-box {
+  background: #113729;
+  color: #c49530;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.8;
+  transition: 0.3s;
+}
+
+.goal-box:hover {
+  background: #f3f1ed;
+  transform: translateY(-5px);
+}
+
+
+
+.message{
+background:#113729;
+padding:60px 20px;
+text-align:center;
+}
+
+.message h2{
+color:#c49530;
+font-size:32px;
+margin-bottom:20px;
+}
+
+.message h3{
+color:#c49530;
+max-width:800px;
+margin:auto;
+line-height:1.9;
+font-size:18px;
+}
+
+#btnMore{
+margin-top:20px;
+padding:12px 25px;
+background:#ff8c00;
+border:none;
+color:#c49530;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+#btnMore:hover{
+background:#ff6a00;
+}
+
+
+
+
+
+.vision{
+background:#113729;
+padding:60px 20px;
+text-align:center;
+}
+
+.vision h2{
+color:#c49530;
+font-size:32px;
+margin-bottom:20px;
+}
+
+.vision h3{
+color:#c49530;
+font-size:18px;
+line-height:1.9;
+max-width:800px;
+margin:15px auto;
+}
+
+
+
+
+
+.values{
+background:#113729;
+padding:70px 20px;
+text-align:center;
+}
+
+.values h2{
+color:#c49530;
+font-size:32px;
+margin-bottom:40px;
+}
+
+.values-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.value-card{
+background:#133729;
+padding:25px;
+border-radius:10px;
+color:#fff;
+transition:0.3s;
+}
+
+.value-card h3{
+color:#c49530;
+margin-bottom:10px;
+}
+
+.value-card:hover{
+transform:translateY(-6px);
+background:#111;
 }
